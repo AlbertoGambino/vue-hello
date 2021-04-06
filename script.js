@@ -7,7 +7,10 @@ function exVue (){
   new Vue({
 
         el: '#app',
-        data:{'goal' : 'Hello world!!!'}
+        data:{
+          'goal' : 'Hello world!!!',
+          'immagine' : require('vue.png')
+        }
 
   })
 
